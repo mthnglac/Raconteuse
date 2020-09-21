@@ -1,7 +1,7 @@
 import pytest
 from django.urls import resolve, reverse
 
-from raconteuse.users.models import User
+from raconteuse.apps.users.models import User
 
 pytestmark = pytest.mark.django_db
 
